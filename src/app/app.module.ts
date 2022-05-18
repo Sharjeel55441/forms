@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { UserListComponent } from './reactive-form/user-list/user-list.component';
+import { AddBooksComponent } from './add-books/add-books.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { UserListComponent } from './reactive-form/user-list/user-list.component
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    UserListComponent
+    UserListComponent,
+    AddBooksComponent
   ],
   imports: [
     BrowserModule,
