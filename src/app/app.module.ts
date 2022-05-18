@@ -11,7 +11,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { UserListComponent } from './reactive-form/user-list/user-list.component';
 import { AddBooksComponent } from './add-books/add-books.component';
-import { PaymentMethodComponent } from './payment-method/payment-method.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +21,7 @@ import { PaymentMethodComponent } from './payment-method/payment-method.componen
     FooterComponent,
     HomeComponent,
     UserListComponent,
-    AddBooksComponent,
-    PaymentMethodComponent
+    AddBooksComponent
   ],
   imports: [
     BrowserModule,
